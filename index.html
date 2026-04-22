@@ -305,9 +305,7 @@
       <details class="abstract">
         <summary>Abstract</summary>
         <p>
-          This paper introduces a framework for decentralised games with rank-dependent payoffs, built on a payoff-derived anchor, a distance-decaying perception kernel, and one round of best response. Its flagship result: in environments where Nash equilibrium is *maximally* indeterminate — when type distributions have independent marginals, any allocation of agents across actions is self-fulfilling — my framework is *maximally* sharp, producing a unique prediction for every type. Projection models of auctions \[Breitmoser 2019; Gagnon-Bartsch–Pagnozzi–Rosato 2021\] and level-kk
-k bidding \[Crawford–Iriberri 2007\] emerge as special kernels. Applications: first-price auctions, subject choice under Chinese Gaokao reforms, and occupational sorting.
-        </p>
+          Many economic environments —first-price auctions, tournaments, sorting, etc.—are decentralized games with population-dependent payoffs in which agents lack common knowledge of the type distribution, and Bayesian Nash equilibrium is typically non-unique. We replace equilibrium analysis with three primitives: an \emph{anchor} each agent computes from her own type alone, an \emph{information ripple} that peaks at her type and decays with distance in type space, and a single round of best response. Each type is \emph{simple} if her optimal action is the same under every admissible ripple, \emph{sensitive} otherwise. Simplicity holds whenever the anchor payoff gap exceeds twice the worst-case ripple distortion. Our main result is that under independent type marginals every type is simple---precisely where Nash equilibrium admits a continuum of self-fulfilling allocations, the framework delivers a unique prediction for every agent. First-price auctions provide the leading application, nesting existing projection and level-$k$ models as special ripples.
       </details>
     </div>
 
